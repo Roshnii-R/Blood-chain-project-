@@ -51,3 +51,7 @@ g++ BloodChain.cpp -o bloodchain
 
 ## 💻 Language
 C++
+
+## Authors
+1. Sadia Akter Roshni  - 20255103325
+2. Tabassum Afrin Korobi - 20255103332
