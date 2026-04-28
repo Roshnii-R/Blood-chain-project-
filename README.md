@@ -5,7 +5,7 @@ A real-time emergency blood request platform that connects patients with nearby 
 
 ---
 
-##  Features
+## 📌 Features
 
 - Add, view, and search donors by blood group
 - Remove donor with **Undo** support
@@ -14,7 +14,7 @@ A real-time emergency blood request platform that connects patients with nearby 
 
 ---
 
-## Data Structures Used
+##  Data Structures Used
 
 | DS | Why | Why Not Others |
 |---|---|---|
@@ -23,3 +23,31 @@ A real-time emergency blood request platform that connects patients with nearby 
 | `queue` | Blood requests — FIFO, fair order | Stack = last person served first |
 | `unordered_map` | Search by blood group — O(1) | Map = O(log n), Vector = O(n) |
 
+---
+
+##  How to Run
+
+```bash
+g++ BloodChain.cpp -o bloodchain
+./bloodchain
+```
+
+---
+
+## 📋 Menu Options
+
+| Option | Action |
+|---|---|
+| 1 | Add donor |
+| 2 | View all donors |
+| 3 | Search by blood group |
+| 4 | Remove donor |
+| 5 | Undo last removal |
+| 6 | Add blood request |
+| 7 | Process next request |
+| 8 | Exit |
+
+---
+
+## 💻 Language
+C++
